@@ -1,0 +1,4 @@
+<launch>
+  <node name="getObjectRange" pkg="bipark_navigate_to_goal" type="getObjectRange.py" output="screen"/>
+  <node name="goToGoal" pkg="bipark_navigate_to_goal" type="goToGoal.py" output="screen"/>
+</launch>
